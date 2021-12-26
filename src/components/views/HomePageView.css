@@ -1,0 +1,76 @@
+* {
+font-size: 90px;
+font-family: 'EB Garamond', serif;
+letter-spacing: 2px;
+}
+
+body{
+  background: rgb(3, 71, 160);
+  /* background: radial-gradient(circle, rgb(34, 54, 58) 0%, rgb(134, 139, 228) 35%, rgb(10, 61, 119) 100%, rgba(0,212,255,1) 100%); */
+}
+
+h1 {
+  font-family: 'Courier New', Courier, monospace;
+  color: rgb(100, 184, 4);
+  text-align: center;
+  letter-spacing: 0px;
+  margin: auto;
+}
+
+table {
+  border: 10px solid rgb(255, 153, 0);
+  border-collapse: separate;
+  empty-cells: hide;
+  margin: auto;
+}
+th, td {
+  border: 10px solid rgb(255, 153, 0);
+  padding: 10px;
+  text-align: center;
+}
+
+.category {
+  color: rgb(250, 81, 2);
+}
+
+.mainTable {
+  height: 10em;
+}
+
+.link {
+  text-decoration: none;
+  color: rgb(247, 243, 6);
+
+}
+
+td:hover {
+  background: green;
+}
+
+
+.display-none {
+  pointer-events: none;
+  cursor: default;
+  color: red;
+}
+
+.score {
+  text-align: center;
+  margin: 5px 0;
+  color: rgb(100, 184, 4);
+}
+
+form {
+  text-align: center;
+}
+
+.div-biayte {
+  text-align: center;
+}
+
+.link-return{
+  background-color: white;
+  border-radius: 30px;
+  font-size: 66px;
+  padding: 20px;
+}
